@@ -6,7 +6,7 @@
 	<groupId>com.wiseomran.spring</groupId>
 	<artifactId>omran-demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>omran-demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -21,7 +21,6 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
-		<start-class>demo.SayHello</start-class>
 	</properties>
 
 	<dependencies>
@@ -41,7 +40,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 	
